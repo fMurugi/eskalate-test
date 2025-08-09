@@ -1,3 +1,4 @@
+create  a virtual env
 ```
 python -m venv venv
 # Activate venv:
@@ -12,3 +13,8 @@ Instal dependencies
 ````
 pip install -r requirements.txt
 ````
+
+run the code
+```
+uvicorn main:app --reload
+```
